@@ -22,11 +22,11 @@ const Navbar = () => {
   return (
     <>
       {/* I have to put the bg image */}
-      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
-        <img src="" alt="" className="w-full" />
-      </div>
+      {/* <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
+        <img src="minimal-hike.jpg" alt="" className="w-full" />
+      </div> */}
 
-      <nav className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
+      <nav className="w-full fixed px-5 bg-gradient-to-b from-rose-100 to-white lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
         <Link href="#top">
           <img
             src="/Icon.png"
@@ -35,7 +35,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 border bg-white shadow-lg bg-opacity-50">
+        <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-lg bg-opacity-50">
           <li>
             <Link href="#top" className="font- Nunito">
               Home
@@ -71,7 +71,7 @@ const Navbar = () => {
 
           <Link
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-14"
+            className="hidden lg:flex items-center gap-3 px-10 font-bold py-2.5 border border-gray-500 rounded-full ml-14"
           >
             Contact <IconMessageChatbotFilled className="w-6" />
           </Link>
@@ -115,7 +115,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        
+
       </nav>
     </>
   );
