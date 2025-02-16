@@ -1,11 +1,11 @@
-import { Outfit, Ovo } from "next/font/google";
+import { Outfit, Nunito } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],weight: ["400","500","600","700"]
 });
 
-const ovo = Ovo({
+const  nunito =  Nunito({
   subsets: ["latin"], weight: ["400"]
 });
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${outfit.className} ${ovo.className} antialiased`}
+        className={`${outfit.className} ${ nunito.className} antialiased`}
       >
         {children}
       </body>
