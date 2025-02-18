@@ -16,9 +16,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${outfit.className} ${ nunito.className} antialiased`}
+        className={`${outfit.className} ${ nunito.className} antialiased leading-8 overflow-x-hidden`}
       >
         {children}
       </body>
