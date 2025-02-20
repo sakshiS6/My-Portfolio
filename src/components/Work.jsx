@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Work = () => {
   return (
-    <div id='work' className="w-full px-[12%] py-10 scroll-mt-20">
-        <h4 className="text-center mb-2 text-lg font-Nunito">My Portfolio</h4>
+    <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
+      <h4 className="text-center mb-2 text-lg font-Nunito">My Portfolio</h4>
       <h2 className="text-center text-5xl font-Nunito">My latest work</h2>
 
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Nunito">
@@ -13,9 +13,34 @@ const Work = () => {
         recusandae nihil mollitia accusamus assumenda! Aspernatur et
         voluptatibus amet?
       </p>
-
+      <div className="grid grid-cols-auto gap-6 my-10 ">
+        <div className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+          <img
+            src="https://www.growth-rocket.com/wp-content/uploads/2023/02/Front-end-vs-back-end-developers-rectangle.jpg"
+            alt=""
+          />
+          <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+            <div>
+              <h3 className="font-semibold">Frontend Project</h3>
+              <h4 className="text-sm text-gray-700 ">Web design</h4>
+            </div>
+            <div>
+              <h3 className="font-semibold">Frontend Project</h3>
+              <h4 className="text-sm text-gray-700 ">Web design</h4>
+            </div>
+            <div>
+              <h3 className="font-semibold">Frontend Project</h3>
+              <h4 className="text-sm text-gray-700 ">Web design</h4>
+            </div>
+            <div>
+              <h3 className="font-semibold">Frontend Project</h3>
+              <h4 className="text-sm text-gray-700 ">Web design</h4>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;
