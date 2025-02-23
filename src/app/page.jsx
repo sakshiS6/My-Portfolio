@@ -1,5 +1,6 @@
 'use client'
 import About from '@/components/About'
+import ContactUs from '@/components/ContactUs'
 import Header from '@/components/Header'
 import Navbar from '@/components/Navbar'
 import Services from '@/components/Services'
@@ -14,6 +15,7 @@ const Home = () => {
     <About/>
     <Services/>
     <Work/>
+    <ContactUs/>
     </>
   )
 }
