@@ -33,13 +33,13 @@ const Home = () => {
 
   return (
     <>
-    <Navbar/>
-    <Header/>
-    <About/>
-    <Services/>
-    <Work/>
-    <ContactUs/>
-    <Footer/>
+    <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+    <Header isDarkMode={isDarkMode}/>
+    <About isDarkMode={isDarkMode}/>
+    <Services isDarkMode={isDarkMode}/>
+    <Work isDarkMode={isDarkMode}/>
+    <ContactUs isDarkMode={isDarkMode}/>
+    <Footer isDarkMode={isDarkMode}/>
     </>
   )
 }

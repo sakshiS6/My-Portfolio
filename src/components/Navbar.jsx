@@ -2,13 +2,13 @@ import {
   IconMenu2,
   IconMessageChatbotFilled,
   IconMoon,
+  IconSun,
   IconX,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import React, { useRef } from "react";
 
-const Navbar = () => {
-
+const Navbar = ({ isDakMode, setIsDarkMode }) => {
   const sideMenuRef = useRef();
 
   const openMenu = () => {
@@ -21,12 +21,13 @@ const Navbar = () => {
 
   return (
     <>
-      {/* I have to put the bg image */}
-      {/* <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
-        <img src="minimal-hike.jpg" alt="" className="w-full" />
-      </div> */}
+      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
+        <img src="" alt="bg" className="w-full" />
+      </div>
 
-      <nav className="w-full fixed px-5 bg-gradient-to-b from-rose-100 to-white lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
+      <nav
+        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 `}
+      >
         <Link href="#top">
           <img
             src="/Icon.png"
@@ -64,9 +65,14 @@ const Navbar = () => {
         </ul>
 
         <div className="flex items-center gap-4">
-          {/* Dark theme icon - IconMoonFilled */}
-          <button>
-            <IconMoon className="w-6" />
+          <button onClick={() => setIsDarkMode((prev) => !prev)}>
+            <p>
+              {isDakMode ? (
+                <IconSun className="w-6" />
+              ) : (
+                <IconMoon className="w-6" />
+              )}
+            </p>
           </button>
 
           <Link
@@ -115,7 +121,6 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-
       </nav>
     </>
   );
