@@ -8,7 +8,7 @@ import {
 import Link from "next/link";
 import React, { useRef } from "react";
 
-const Navbar = ({ isDakMode, setIsDarkMode }) => {
+const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   const sideMenuRef = useRef();
 
   const openMenu = () => {
@@ -30,13 +30,13 @@ const Navbar = ({ isDakMode, setIsDarkMode }) => {
       >
         <Link href="#top">
           <img
-            src="/Icon.png"
+            src={isDarkMode ? "/Icon2.png" : "/Icon.png"}
             alt="Icon"
             className="w-10 cursor-pointer mr-14"
           />
         </Link>
 
-        <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-lg bg-opacity-50">
+        <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-lg bg-opacity-50 dark: border dark:border-white/50 dark:bg-transparent">
           <li>
             <Link href="#top" className="font- Nunito">
               Home
@@ -66,18 +66,16 @@ const Navbar = ({ isDakMode, setIsDarkMode }) => {
 
         <div className="flex items-center gap-4">
           <button onClick={() => setIsDarkMode((prev) => !prev)}>
-            <p>
-              {isDakMode ? (
-                <IconSun className="w-6" />
-              ) : (
-                <IconMoon className="w-6" />
-              )}
-            </p>
+            {isDarkMode ? (
+              <IconSun className="w-6 text-yellow-100" />
+            ) : (
+              <IconMoon className="w-6 text-gray-800" />
+            )}
           </button>
 
           <Link
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 font-bold py-2.5 border border-gray-500 rounded-full ml-14"
+            className="hidden lg:flex items-center gap-3 px-10 font-bold py-2.5 border border-gray-500 rounded-full ml-14 font-Nunito dark:border-white/50"
           >
             Contact <IconMessageChatbotFilled className="w-6" />
           </Link>
@@ -90,7 +88,7 @@ const Navbar = ({ isDakMode, setIsDarkMode }) => {
         {/* Mobile menu */}
         <ul
           ref={sideMenuRef}
-          className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 trnsition duration-500"
+          className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 trnsition duration-500 dark:bg-darkhover dark:text-white"
         >
           <div className="absolute right-6 top-6" onClick={closeMenu}>
             <IconX className="w-8 cursor-pointer" />

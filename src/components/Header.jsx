@@ -14,8 +14,8 @@ const Header = () => {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, totam iure at doloremque saepe facere est.
         </p>
         <div className='flex flex-col-2 sm: flex-row items-center gap-4 mt-4'>
-          <Link href="/contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>Contact Me <IconArrowRight/></Link>
-          <Link href="/pdf" className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>My Resume <IconDownload/></Link>
+          <Link href="/contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>Contact Me <IconArrowRight/></Link>
+          <Link href="/pdf" className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black dark:bg-white'>My Resume <IconDownload/></Link>
         </div>
     </div>
   )

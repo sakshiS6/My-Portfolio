@@ -17,35 +17,35 @@ const Services = () => {
       </p>
 
       <div className="grid grid-cols-auto gap-6 my-10 ">
-        <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 ">
+        <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
           <IconCode size={66} />
-          <h3 className="my-4 font-semibold text-gray-700 text-lg">
+          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Languages
           </h3>
-          <p className="text-gray-700 leading-5">HTML , CSS JS , MERN</p>
+          <p className="text-gray-700 leading-5 dark:text-white/90">HTML , CSS JS , MERN</p>
           <Link href="" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
         </div>
 
-        <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 ">
+        <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
           <IconBook size={66} />
-          <h3 className="my-4 font-semibold text-gray-700 text-lg">
+          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Education
           </h3>
-          <p className="text-gray-700 leading-5">HTML , CSS JS , MERN</p>
+          <p className="text-gray-700 leading-5 dark:text-white/90">HTML , CSS JS , MERN</p>
           <Link href="" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
         </div>
 
-        <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 ">
+        <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
           <IconBriefcase size={66} />
-          <h3 className="my-4 font-semibold text-gray-700 text-lg">Projects</h3>
-          <p className="text-gray-700 leading-5">HTML , CSS JS , MERN</p>
+          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">Projects</h3>
+          <p className="text-gray-700 leading-5 dark:text-white/90">HTML , CSS JS , MERN</p>
           <Link href="" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
         </div>
 
-        <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 ">
+        <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white">
           <IconBriefcase size={66} />
-          <h3 className="my-4 font-semibold text-gray-700 text-lg">Projects</h3>
-          <p className="text-gray-700 leading-5">HTML , CSS JS , MERN</p>
+          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">Projects</h3>
+          <p className="text-gray-700 leading-5 dark:text-white/90">HTML , CSS JS , MERN</p>
           <Link href="" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
         </div>
       </div>

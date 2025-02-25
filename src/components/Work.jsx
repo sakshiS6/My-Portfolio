@@ -15,7 +15,7 @@ const Work = () => {
         recusandae nihil mollitia accusamus assumenda! Aspernatur et
         voluptatibus amet?
       </p>
-      <div className="grid grid-cols-auto my-10 gap-5">
+      <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
         
           {/* Project-1 */}
           <div
@@ -71,8 +71,8 @@ const Work = () => {
           </div>
       
       </div>
-      <Link href="" className="w-max flex itmes-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lighthover duration-500">
-        Show more <IconArrowRight/>
+      <Link href="" className="w-max flex itmes-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lighthover duration-500 dark:text-white dark:hover:bg-darkhover dark:border-white">
+        Show more <IconArrowRight />
       </Link>
     </div>
   );
