@@ -13,7 +13,7 @@ const About = (isDarkMode) => {
       <h2 className="text-center text-5xl font-Nunito">About me</h2>
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-12">
         <div className="w-64 sm:w-80 rounded-3xl max-w-none">
-          <img src="" alt="user-image" className="w-full rounded-3xl" />
+          <img src="MyImage.jpg" alt="user-image" className=" rounded-3xl" />
         </div>
         <div className="flex1">
           <p>
