@@ -2,7 +2,6 @@ import { IconArrowRight, IconSend } from "@tabler/icons-react";
 import Link from "next/link";
 import React from "react";
 import { motion } from "motion/react";
-import { delay } from "motion";
 
 const Work = () => {
   return (

@@ -34,7 +34,7 @@ const Header = () => {
           initial={{y: 30, opacity:0}} 
           whileInView={{y: 0, opacity:1}}
           transition={{duration: 0.6, delay: 1}}
-          href="/contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>Contact Me <IconArrowRight/></motion.Link>
+          href="/" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>Contact Me <IconArrowRight/></motion.Link>
           <motion.Link
           initial={{y: 30, opacity:0}} 
           whileInView={{y: 0, opacity:1}}

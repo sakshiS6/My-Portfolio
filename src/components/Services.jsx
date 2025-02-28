@@ -57,7 +57,7 @@ const Services = () => {
             Education
           </h3>
           <p className="text-gray-700 leading-5 dark:text-white/90">HTML , CSS JS , MERN</p>
-          <Link href="" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
+          <Link href="/" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
         </motion.div>
 
         <motion.div
@@ -66,7 +66,7 @@ const Services = () => {
           <IconBriefcase size={66} />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">Projects</h3>
           <p className="text-gray-700 leading-5 dark:text-white/90">HTML , CSS JS , MERN</p>
-          <Link href="" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
+          <Link href="/" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
         </motion.div>
 
         <motion.div
@@ -75,7 +75,7 @@ const Services = () => {
           <IconBriefcase size={66} />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">Projects</h3>
           <p className="text-gray-700 leading-5 dark:text-white/90">HTML , CSS JS , MERN</p>
-          <Link href="" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
+          <Link href="/" className="flex items-center gap-2 mt-5">Read more <IconArrowRight/> </Link>
         </motion.div>
       </motion.div>
     </motion.div>
