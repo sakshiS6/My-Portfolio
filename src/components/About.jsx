@@ -68,7 +68,7 @@ const About = (isDarkMode) => {
             className="grid grid-cols-1 mt-6 sm:grid-cols-3 gap-6 max-w-2xl"
           >
             <motion.div
-              whileInView={{ scale: 1.05 }}
+              whileHover={{ scale: 1.05 }}
               className="border border-gray-400 rounded-xl m-2 p-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
             >
               <IconCode size={66} />
@@ -80,7 +80,7 @@ const About = (isDarkMode) => {
               </p>
             </motion.div>
             <motion.div
-              whileInView={{ scale: 1.05 }}
+              whileHover={{ scale: 1.05 }}
               className="border border-gray-400 rounded-xl m-2 px-6 py-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
             >
               <IconBook size={66} />
@@ -92,7 +92,7 @@ const About = (isDarkMode) => {
               </p>
             </motion.div>
             <motion.div
-              whileInView={{ scale: 1.05 }}
+              whileHover={{ scale: 1.05 }}
               className="border border-gray-400 rounded-xl m-2 px-6 py-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500  hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
             >
               <IconBriefcase size={66} />
@@ -112,38 +112,46 @@ const About = (isDarkMode) => {
           >
             Tools I use
           </motion.h4>
-          <ul className="flex items-center gap-3 sm:gap-5">
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 1.5, duration: 0.6 }}
+            className="flex items-center gap-3 sm:gap-5"
+          >
             <motion.img
-            
+              whileHover={{ scale: 1.1 }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
               alt="VS Code Logo"
               className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
             <motion.img
+              whileHover={{ scale: 1.1 }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
               alt="VS Code Logo"
               className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
             <motion.img
+              whileHover={{ scale: 1.1 }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
               alt="VS Code Logo"
               className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
             <motion.img
+              whileHover={{ scale: 1.1 }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
               alt="VS Code Logo"
               className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
             <motion.img
+              whileHover={{ scale: 1.1 }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
               alt="VS Code Logo"
               className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
-          </ul>
+          </motion.ul>
         </motion.div>
       </motion.div>
     </motion.div>
   );
 };
-
 export default About;
