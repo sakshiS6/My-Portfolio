@@ -57,9 +57,10 @@ const About = (isDarkMode) => {
           className="flex1"
         >
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
-            suscipit facere facilis necessitatibus dolorem, tenetur, distinctio
-            nam delectus magni similique sequi quia officia, quo minus. Quasi.
+            Dedicated and detail-oriented Full Stack Developer with a passion
+            for crafting responsive and dynamic web applications. I specialize
+            in building seamless user experiences with modern web technologies,
+            ensuring performance, accessibility, and engaging interfaces.
           </p>
           <motion.div
             initial={{ opacity: 0 }}
