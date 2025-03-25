@@ -1,11 +1,11 @@
 'use client'
 import About from '@/components/About'
+import Certification from '@/components/Certification'
 import ContactUs from '@/components/ContactUs'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Navbar from '@/components/Navbar'
-import Services from '@/components/Services'
-import Work from '@/components/Work'
+import Project from '@/components/Project'
 import React, { useEffect, useState } from 'react'
 
 const Home = () => {
@@ -34,12 +34,12 @@ const Home = () => {
   return (
     <>
     <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-    <Header isDarkMode={isDarkMode}/>
-    <About isDarkMode={isDarkMode}/>
-    <Services isDarkMode={isDarkMode}/>
-    <Work isDarkMode={isDarkMode}/>
-    <ContactUs isDarkMode={isDarkMode}/>
-    <Footer isDarkMode={isDarkMode}/>
+    <Header isDarkMode={isDarkMode} />
+    <About isDarkMode={isDarkMode} />
+    <Certification isDarkMode={isDarkMode}/>
+    <Project isDarkMode={isDarkMode} />
+    <ContactUs isDarkMode={isDarkMode} />
+    <Footer isDarkMode={isDarkMode} />
     </>
   )
 }

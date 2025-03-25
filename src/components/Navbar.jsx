@@ -48,13 +48,13 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </Link>
           </li>
           <li>
-            <Link href="#services" className="font- Nunito">
-              Services
+            <Link href="#project" className="font- Nunito">
+              My Projects
             </Link>
           </li>
           <li>
-            <Link href="#work" className="font- Nunito">
-              My Work
+            <Link href="#certification" className="font- Nunito">
+              My Certifications
             </Link>
           </li>
           <li>
@@ -104,12 +104,12 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </Link>
           </li>
           <li>
-            <Link href="#services" className="font- Nunito" onClick={closeMenu}>
-              Services
+            <Link href="#certification" className="font- Nunito" onClick={closeMenu}>
+              Certifications
             </Link>
           </li>
           <li>
-            <Link href="#work" className="font- Nunito" onClick={closeMenu}>
+            <Link href="#project" className="font- Nunito" onClick={closeMenu}>
               My Work
             </Link>
           </li>

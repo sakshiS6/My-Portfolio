@@ -57,10 +57,12 @@ const About = (isDarkMode) => {
           className="flex1"
         >
           <p>
-            Dedicated and detail-oriented Full Stack Developer with a passion
-            for crafting responsive and dynamic web applications. I specialize
-            in building seamless user experiences with modern web technologies,
-            ensuring performance, accessibility, and engaging interfaces.
+            As a dedicated Full Stack Developer, I create responsive and
+            interactive web applications from concept to deployment. I enjoy
+            transforming ideas into user-friendly solutions while ensuring
+            performance, accessibility, and scalability. I thrive in
+            collaborative environments and am committed to continuous learning
+            to stay updated with modern development practices.
           </p>
           <motion.div
             initial={{ opacity: 0 }}
@@ -77,7 +79,7 @@ const About = (isDarkMode) => {
                 Languages
               </h3>
               <p className="text-gray-700 dark:text-white/80">
-                HTML , CSS JS , MERN
+                HTML , CSS , JS , MERN
               </p>
             </motion.div>
             <motion.div
