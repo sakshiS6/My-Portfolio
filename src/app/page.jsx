@@ -36,8 +36,8 @@ const Home = () => {
     <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
     <Header isDarkMode={isDarkMode} />
     <About isDarkMode={isDarkMode} />
-    <Certification isDarkMode={isDarkMode}/>
     <Project isDarkMode={isDarkMode} />
+    <Certification isDarkMode={isDarkMode}/>
     <ContactUs isDarkMode={isDarkMode} />
     <Footer isDarkMode={isDarkMode} />
     </>
