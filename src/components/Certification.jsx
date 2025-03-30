@@ -31,7 +31,7 @@ const Certification = () => {
         transition={{ delay: 0.5, duration: 0.5 }}
         className="text-center text-5xl font-Nunito"
       >
-        Certification and Workshops
+        Certifications and Workshops
       </motion.h2>
 
       <motion.p
@@ -51,18 +51,22 @@ const Certification = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="grid grid-cols-auto gap-6 my-10 "
+        className="grid grid-cols-auto gap-10 my-10 "
       >
+
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
+          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <IconCode size={66} />
+          <img src="/Certificate1.jpeg" alt="certificate"/>
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
-            Languages
+            MERN - Full Stack Development Course
           </h3>
           <p className="text-gray-700 leading-5 dark:text-white/90">
-            HTML , CSS JS , MERN
+            Digipodium
+          </p>
+          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+            September 2024
           </p>
           <Link href="" className="flex items-center gap-2 mt-5">
             Read more <IconArrowRight />{" "}
@@ -71,51 +75,100 @@ const Certification = () => {
 
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
+          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <IconBook size={66} />
+          <img src="/Certificate2.jpeg" alt="certificate"/>
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
-            Education
+            Project Completion Certificate
           </h3>
           <p className="text-gray-700 leading-5 dark:text-white/90">
-            HTML , CSS JS , MERN
+            Digipodium
           </p>
-          <Link href="/" className="flex items-center gap-2 mt-5">
+          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+            December 2024
+          </p>
+          <Link href="" className="flex items-center gap-2 mt-5">
             Read more <IconArrowRight />{" "}
           </Link>
         </motion.div>
 
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
+          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <IconBriefcase size={66} />
+          <img src="/Certificate3.jpeg" alt="certificate"/>
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
-            Projects
+            Google My Business- Local SEO
           </h3>
           <p className="text-gray-700 leading-5 dark:text-white/90">
-            HTML , CSS JS , MERN
+            Google
           </p>
-          <Link href="/" className="flex items-center gap-2 mt-5">
+          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+            December 2024
+          </p>
+          <Link href="" className="flex items-center gap-2 mt-5">
             Read more <IconArrowRight />{" "}
           </Link>
         </motion.div>
 
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
+          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <IconBriefcase size={66} />
+          <img src="/Certificate4.jpeg" alt="certificate"/>
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
-            Projects
+            Death Race- Robotics
           </h3>
           <p className="text-gray-700 leading-5 dark:text-white/90">
-            HTML , CSS JS , MERN
+            Indian Institute of Technology IIT, Patna
           </p>
-          <Link href="/" className="flex items-center gap-2 mt-5">
+          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+            December 2023
+          </p>
+          <Link href="" className="flex items-center gap-2 mt-5">
             Read more <IconArrowRight />{" "}
           </Link>
         </motion.div>
+
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
+        >
+          <img src="/Certificate5.jpeg" alt="certificate"/>
+          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
+            Tech Revolution- Robo Race
+          </h3>
+          <p className="text-gray-700 leading-5 dark:text-white/90">
+            Shri Ramswaroop University
+          </p>
+          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+            April 2024
+          </p>
+          <Link href="" className="flex items-center gap-2 mt-5">
+            Read more <IconArrowRight />{" "}
+          </Link>
+        </motion.div>
+
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
+        >
+          <img src="/Certificate6.jpeg" alt="certificate"/>
+          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
+            Python Programming Workshop
+          </h3>
+          <p className="text-gray-700 leading-5 dark:text-white/90">
+            SoftPro
+          </p>
+          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+            February 2024
+          </p>
+          <Link href="" className="flex items-center gap-2 mt-5">
+            Read more <IconArrowRight />{" "}
+          </Link>
+        </motion.div>
+        
+
       </motion.div>
     </motion.div>
   );

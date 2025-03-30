@@ -22,7 +22,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   return (
     <>
       <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
-        <img src="" alt="bg" className="w-full" />
+        <img src="/darklogo.jpg" alt="bg" className="w-full" />
       </div>
 
       <nav
@@ -30,9 +30,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
       >
         <Link href="#top">
           <img
-            src={isDarkMode ? "/Icon2.png" : "/Icon.png"}
+            src={isDarkMode ? "/darklogo.jpg" : "/Icon.png"}
             alt="Icon"
-            className="w-10 cursor-pointer mr-14"
+            className="w-10 cursor-pointer mr-14 rounded-full p-1"
           />
         </Link>
 

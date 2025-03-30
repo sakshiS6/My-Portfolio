@@ -49,20 +49,21 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1 }}
-          href="/"
+          href="#contact"
           className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent"
         >
           Contact Me <IconArrowRight />
         </motion.Link>
-        <motion.Link
+        <motion.a
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          href="/pdf"
+          href="/ProfessionalCV.pdf"
+          download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black dark:bg-white"
         >
           My Resume <IconDownload />
-        </motion.Link>
+        </motion.a>
       </div>
     </div>
   );

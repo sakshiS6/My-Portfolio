@@ -125,31 +125,37 @@ const About = (isDarkMode) => {
               whileHover={{ scale: 1.1 }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
               alt="VS Code Logo"
-              className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              className="w-24 p-1 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
             <motion.img
               whileHover={{ scale: 1.1 }}
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              src="/gitlogo.png"
               alt="VS Code Logo"
-              className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              className="w-24 p-1 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
             <motion.img
               whileHover={{ scale: 1.1 }}
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              src="githublogo.jpg"
               alt="VS Code Logo"
-              className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              className="w-24 p-1 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
             <motion.img
               whileHover={{ scale: 1.1 }}
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              src="/Cloudinary.png"
               alt="VS Code Logo"
-              className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              className="w-24 p-1 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
             <motion.img
               whileHover={{ scale: 1.1 }}
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              src="/Canva.png"
               alt="VS Code Logo"
-              className="w-12 p-2 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              className="w-24 p-1 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+            />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              src="/mongoDB.png"
+              alt="VS Code Logo"
+              className="w-24 p-1 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
           </motion.ul>
         </motion.div>
