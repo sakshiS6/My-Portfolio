@@ -51,16 +51,16 @@ const Certification = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="grid grid-cols-2 md:grid-cols-3 gap-10 my-10"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-10"
       >
 
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <img src="/Certificate1.jpeg" alt="certificate"/>
+          <img src="/Certificate1.jpeg" alt="certificate" className="h-96 w-full object-cover rounded-md" />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
-            MERN - Full Stack Development Course
+            MERN - Full Stack Development
           </h3>
           <p className="text-gray-700 leading-5 dark:text-white/90">
             Digipodium
@@ -77,7 +77,7 @@ const Certification = () => {
           whileHover={{ scale: 1.05 }}
           className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <img src="/Certificate2.jpeg" alt="certificate"/>
+          <img src="/Certificate2.jpeg" alt="certificate"className="h-96 w-full object-cover rounded-md" />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Project Completion Certificate
           </h3>
@@ -88,7 +88,7 @@ const Certification = () => {
             December 2024
           </p>
           <Link href="" className="flex items-center gap-2 mt-5">
-            Read more <IconArrowRight />{" "}
+            Read more<IconArrowRight />{" "}
           </Link>
         </motion.div>
 
@@ -96,7 +96,7 @@ const Certification = () => {
           whileHover={{ scale: 1.05 }}
           className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <img src="/Certificate3.jpeg" alt="certificate"/>
+          <img src="/Certificate3.jpeg" alt="certificate" className="h-96 w-full object-cover rounded-md" />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Google My Business- Local SEO
           </h3>
@@ -107,7 +107,7 @@ const Certification = () => {
             December 2024
           </p>
           <Link href="" className="flex items-center gap-2 mt-5">
-            Read more <IconArrowRight />{" "}
+            Read more<IconArrowRight />{" "}
           </Link>
         </motion.div>
 
@@ -115,7 +115,7 @@ const Certification = () => {
           whileHover={{ scale: 1.05 }}
           className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <img src="/Certificate4.jpeg" alt="certificate"/>
+          <img src="/Certificate4.jpeg" alt="certificate" className="h-56 w-full object-cover rounded-md" />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Death Race- Robotics
           </h3>
@@ -134,7 +134,7 @@ const Certification = () => {
           whileHover={{ scale: 1.05 }}
           className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <img src="/Certificate5.jpeg" alt="certificate"/>
+          <img src="/Certificate5.jpeg" alt="certificate" className="h-56 w-full object-cover rounded-md" />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Tech Revolution- Robo Race
           </h3>
@@ -153,7 +153,7 @@ const Certification = () => {
           whileHover={{ scale: 1.05 }}
           className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <img src="/Certificate6.jpeg" alt="certificate"/>
+          <img src="/Certificate6.jpeg" alt="certificate" className="h-56 w-full object-cover rounded-md" />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Python Programming Workshop
           </h3>
