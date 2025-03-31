@@ -51,7 +51,7 @@ const Certification = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="grid grid-cols-auto gap-10 my-10 "
+        className="grid grid-cols-2 md:grid-cols-3 gap-10 my-10"
       >
 
         <motion.div

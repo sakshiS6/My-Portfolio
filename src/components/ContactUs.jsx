@@ -59,9 +59,8 @@ const ContactUs = () => {
       whileInView={{ opacity:1 }}
       transition={{delay:0.7, duration:0.5}}
       className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Nunito">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-        voluptas quibusdam officia aliquam quam saepe veniam, sed porro vero?
-      </motion.p>
+        Let's connect! Feel free to reach out for collaborations, opportunities, or any inquiries.
+        </motion.p>
 
       <motion.form
       initial={{ opacity:0 }}
