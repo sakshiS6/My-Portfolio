@@ -148,7 +148,7 @@ const About = (isDarkMode) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 0.6 }}
-            className="flex items-center gap-3 sm:gap-5"
+            className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 place-items-center"
           >
             <motion.img
               whileHover={{ scale: 1.1 }}
@@ -164,7 +164,7 @@ const About = (isDarkMode) => {
             />
             <motion.img
               whileHover={{ scale: 1.1 }}
-              src="githublogo.jpg"
+              src="/githublogo.png"
               alt="VS Code Logo"
               className="w-24 p-1 flex items-center justify-center sm:14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             />
