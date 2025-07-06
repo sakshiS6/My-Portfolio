@@ -1,11 +1,8 @@
-import {
-  IconBook,
-  IconBrandVscode,
-  IconBriefcase,
-  IconCode,
-} from "@tabler/icons-react";
+"use client"
+import { IconBook, IconBriefcase, IconCode } from "@tabler/icons-react";
 import React from "react";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 const About = (isDarkMode) => {
   return (
@@ -60,52 +57,84 @@ const About = (isDarkMode) => {
             As a dedicated Full Stack Developer, I create responsive and
             interactive web applications from concept to deployment. I enjoy
             transforming ideas into user-friendly solutions while ensuring
-            performance, accessibility, and scalability. I thrive in
-            collaborative environments and am committed to continuous learning
-            to stay updated with modern development practices.
+            performance, accessibility, and scalability.
           </p>
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="grid grid-cols-1 mt-6 sm:grid-cols-3 gap-6 max-w-2xl"
+            className="grid grid-cols-1 mt-6 sm:grid-cols-3 gap-6 max-w-6xl"
           >
             <motion.div
               whileHover={{ scale: 1.05 }}
-              className="border border-gray-400 rounded-xl m-2 p-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
+              className="border w-full h-fit border-gray-400 rounded-xl  p-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
             >
               <IconCode size={66} />
-              <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
-                Languages
+              <h3 className="my-4 font-semibold text-gray-700 text-xl dark:text-white">
+                Skills
               </h3>
-              <p className="text-gray-700 dark:text-white/80">
-                HTML , CSS , JS , MERN
-              </p>
+              <ul className="list-disc text-gray-700 dark:text-white/80">
+                <li>MERN Stack</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>SQL, MySQL</li>
+                <li>Data Structure</li>
+                <li>Git, Github</li>
+                <li>TeamWork</li>
+                <li>Communication</li>
+              </ul>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.05 }}
-              className="border border-gray-400 rounded-xl m-2 px-6 py-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
+              className="border w-full h-fit border-gray-400 rounded-xl m-2 px-6 py-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
             >
               <IconBook size={66} />
-              <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
+              <h3 className="my-4 font-semibold text-gray-700 text-xl dark:text-white">
                 Education
               </h3>
-              <p className="text-gray-700 dark:text-white/80">
-                Btech in computer science and design
-              </p>
+              <ul className="list-disc text-gray-800 dark:text-white/80">
+                <li>
+                  BTech
+                  <ul className="list-none">
+                    <li>Computer Science and Design</li>
+                    <li>RR Institute of Modern Technology</li>
+                    <li>CGPA: 8.38 </li>
+                    <li>Year: 2022-Present</li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li>XII (ICSE)</li>
+                    <li>Modern Indian School</li>
+                    <li>Percentage: 91%</li>
+                    <li>Year: 2022</li>
+                  </ul>
+                </li>
+                
+              </ul>
             </motion.div>
+
+            <Link href="#project">
             <motion.div
               whileHover={{ scale: 1.05 }}
-              className="border border-gray-400 rounded-xl m-2 px-6 py-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500  hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
+              className="border w-full h-fit border-gray-400 rounded-xl m-2 p-6 cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkhover/50"
             >
               <IconBriefcase size={66} />
-              <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
+              <h3 className="my-4 font-semibold text-gray-700 text-xl dark:text-white">
                 Projects
               </h3>
-              <p className="text-gray-700 dark:text-white/80">
-                Poll Maker website
-              </p>
+
+              <ul className="list-disc text-gray-700 dark:text-white/80">
+                <li>Live Poll Creator website</li>
+                <li>AI Medical Chatbot</li>
+                <li>AI Car Marketplace</li>
+                <li>Animated Website</li>
+                <li>Todo list</li>
+                <li>Password Generator Website</li>
+              </ul>
             </motion.div>
+            </Link>
           </motion.div>
           <motion.h4
             initial={{ opacity: 0, y: 20 }}

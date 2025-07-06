@@ -1,10 +1,4 @@
-import {
-  IconArrowRight,
-  IconBook,
-  IconBriefcase,
-  IconCode,
-} from "@tabler/icons-react";
-import Link from "next/link";
+"use client"
 import React from "react";
 import { motion } from "motion/react";
 
@@ -62,15 +56,13 @@ const Certification = () => {
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             MERN - Full Stack Development
           </h3>
-          <p className="text-gray-700 leading-5 dark:text-white/90">
+          <p className="font-semibold text-gray-700 leading-5 dark:text-white/90">
             Digipodium
           </p>
-          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+          <p className="text-gray-700 mt-2 mb-2 leading-5 dark:text-white/90">
             September 2024
           </p>
-          <Link href="" className="flex items-center gap-2 mt-5">
-            Read more <IconArrowRight />{" "}
-          </Link>
+          
         </motion.div>
 
         <motion.div
@@ -81,15 +73,13 @@ const Certification = () => {
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Project Completion Certificate
           </h3>
-          <p className="text-gray-700 leading-5 dark:text-white/90">
+          <p className="font-semibold text-gray-700 leading-5 dark:text-white/90">
             Digipodium
           </p>
-          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+          <p className="text-gray-700 mt-2 mb-2 leading-5 dark:text-white/90">
             December 2024
           </p>
-          <Link href="" className="flex items-center gap-2 mt-5">
-            Read more<IconArrowRight />{" "}
-          </Link>
+          
         </motion.div>
 
         <motion.div
@@ -100,53 +90,30 @@ const Certification = () => {
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Google My Business- Local SEO
           </h3>
-          <p className="text-gray-700 leading-5 dark:text-white/90">
+          <p className="font-semibold text-gray-700 leading-5 dark:text-white/90">
             Google
           </p>
-          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+          <p className="text-gray-700 mt-2 mb-2 leading-5 dark:text-white/90">
             December 2024
           </p>
-          <Link href="" className="flex items-center gap-2 mt-5">
-            Read more<IconArrowRight />{" "}
-          </Link>
+          
         </motion.div>
 
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
         >
-          <img src="/Certificate4.jpeg" alt="certificate" className="h-56 w-full object-cover rounded-md" />
+          <img src="/Certificate7.jpeg" alt="certificate" className="h-56 w-full object-cover rounded-md" />
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
-            Death Race- Robotics
+            Technology Job Simulation
           </h3>
-          <p className="text-gray-700 leading-5 dark:text-white/90">
-            Indian Institute of Technology IIT, Patna
+          <p className="font-semibold text-gray-700 leading-5 dark:text-white/90">
+            Deloitte 
           </p>
-          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
-            December 2023
+          <p className="text-gray-700 mt-2 mb-2 leading-5 dark:text-white/90">
+            June 2025
           </p>
-          <Link href="" className="flex items-center gap-2 mt-5">
-            Read more <IconArrowRight />{" "}
-          </Link>
-        </motion.div>
-
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
-        >
-          <img src="/Certificate5.jpeg" alt="certificate" className="h-56 w-full object-cover rounded-md" />
-          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
-            Tech Revolution- Robo Race
-          </h3>
-          <p className="text-gray-700 leading-5 dark:text-white/90">
-            Shri Ramswaroop University
-          </p>
-          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
-            April 2024
-          </p>
-          <Link href="" className="flex items-center gap-2 mt-5">
-            Read more <IconArrowRight />{" "}
-          </Link>
+          
         </motion.div>
 
         <motion.div
@@ -157,15 +124,47 @@ const Certification = () => {
           <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
             Python Programming Workshop
           </h3>
-          <p className="text-gray-700 leading-5 dark:text-white/90">
+          <p className="font-semibold text-gray-700 leading-5 dark:text-white/90">
             SoftPro
           </p>
-          <p className="text-gray-700 mt-2 leading-5 dark:text-white/90">
+          <p className="text-gray-700 mt-2 mb-2 leading-5 dark:text-white/90">
             February 2024
           </p>
-          <Link href="" className="flex items-center gap-2 mt-5">
-            Read more <IconArrowRight />{" "}
-          </Link>
+          
+        </motion.div>
+
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
+        >
+          <img src="/Certificate4.jpeg" alt="certificate" className="h-56 w-full object-cover rounded-md" />
+          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
+            Death Race- Robotics
+          </h3>
+          <p className="font-semibold text-gray-700 leading-5 dark:text-white/90">
+            Indian Institute of Technology IIT, Patna
+          </p>
+          <p className="text-gray-700 mt-2 mb-2 leading-5 dark:text-white/90">
+            December 2023
+          </p>
+          
+        </motion.div>
+
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="border border-gray-400 rounded-lg p-2 hover:shadow-black cursor-pointer hover:bg-lighthover hover:-translate-y-1 duration-500 dark:hover:bg-darkhover dark:hover:shadow-white"
+        >
+          <img src="/Certificate5.jpeg" alt="certificate" className="h-56 w-full object-cover rounded-md" />
+          <h3 className="my-4 font-semibold text-gray-700 text-lg dark:text-white">
+            Tech Revolutions
+          </h3>
+          <p className="font-semibold text-gray-700 leading-5 dark:text-white/90">
+            Shri Ramswaroop Memorial University 
+          </p>
+          <p className="text-gray-700 mt-2 mb-2 leading-5 dark:text-white/90">
+            April 2024
+          </p>
+          
         </motion.div>
         
 

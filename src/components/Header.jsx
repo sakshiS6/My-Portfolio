@@ -1,5 +1,5 @@
+"use client"
 import { IconArrowRight, IconDownload } from "@tabler/icons-react";
-import Link from "next/link";
 import React from "react";
 import { motion } from "motion/react";
 

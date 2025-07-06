@@ -1,3 +1,4 @@
+"use client"
 import {
   IconMenu2,
   IconMessageChatbotFilled,

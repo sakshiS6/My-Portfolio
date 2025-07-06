@@ -1,5 +1,4 @@
 'use client';
-import { IconArrowRightBar } from "@tabler/icons-react";
 import React, { useState } from "react";
 import { motion } from "motion/react";
 
